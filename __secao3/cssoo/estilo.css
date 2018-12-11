@@ -1,0 +1,68 @@
+/* Separacao de estrutura e visual (skin) */
+/* ANTES */
+.boxred {
+    background-color: #f00;
+    height: 100px;
+    outline: 1px solid #fff;
+    width: 100px;
+}
+
+.boxgreen {
+    background-color: #0f0;
+    height: 100px;
+    outline: 1px solid #fff;
+    width: 100px;
+}
+
+.boxblue {
+    background-color: #00f;
+    height: 100px;
+    outline: 1px solid #fff;
+    width: 100px;
+}
+
+/* DEPOIS */
+.box {
+    height: 100px;
+    outline: 1px solid #fff;
+    width: 100px;
+}
+
+.box-red { background-color: #f00; }
+.box-green { background-color: #0f0; }
+.box-blue { background-color: #00f; }
+
+/* Independencia entre container e conteudo */
+/* ANTES */
+aside h3 {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1;
+    text-shadow: rgba(0, 0, 0, .3) 3px 3px 6px;
+}
+
+footer h3 {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1;
+    text-shadow: rgba(0, 0, 0, .3) 3px 3px 6px;
+}
+
+/* DEPOIS */
+.title {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+aside .title {
+    font-size: 2em;
+    text-shadow: rgba(0, 0, 0, .3) 3px 3px 6px;
+}
+
+footer .title {
+    font-size: 1.5em;
+    text-shadow: rgba(0, 0, 0, .3) 2px 2px 4px;
+}

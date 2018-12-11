@@ -1,0 +1,27 @@
+/*
+caracteriscas de um modulo:
+1- ser independente
+2- intercambiavel (trocar de lugar sem que isso altere a sua apresentacao)
+
+**ATENCAO**
+- Evitar o uso de elementos dentro do modulo, utilizando entao classes
+exemplo: .module-test h2 {} -> .module-test .module-test-title {}
+
+- Nunca usar IDs em um modulo css
+*/
+
+.module-test {
+
+}
+
+.module-test .module-test-title {
+
+}
+
+.module-test .module-test-summary {
+
+}
+
+.module-test .module-test-whatever {
+
+}

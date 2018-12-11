@@ -1,0 +1,13 @@
+/* seletor superqualificado */
+html body .wrapper #content a {}
+
+/* solucao -> ID eh unico e nao pode se repetir */
+#content a {}
+
+/* seletor superqualificado */
+ul#nav li a {}
+
+/* solucao */
+#nav a {}
+
+/* OBS: sempre evitar superqualificacao de seletores */

@@ -1,0 +1,17 @@
+/*
+a) Estilos inline
+b) IDs
+c) Classes, pseudoclasses e atributos
+d) Elementos e pseudoelementos
+
+Site com calculadora de especificidade de Classes
+https://specificity.keegan.st/
+*/
+
+h1 {} /* 0111 */
+
+#content h1 {} /* 0101 */
+
+
+/* Empate = Cascata CSS */
+/* !important = Prioridade Total <=> CSS Usuário ganha */

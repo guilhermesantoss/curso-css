@@ -1,0 +1,11 @@
+/* Bloco */
+/* Entidade independente com seu próprio significado. */
+.search {}
+
+/* Elemento */
+/* Descendente (e parte) de um Bloco. */
+.search__field {}
+
+/* Modificador */
+/* Um "estado" ou "versão" diferente de um Bloco ou Elemento. */
+.search__field--error {}

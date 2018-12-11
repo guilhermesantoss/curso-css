@@ -1,0 +1,24 @@
+/* Eficiencia inerente de seletores CSS */
+
+#header {}        /* ID */
+.promo {}         /* Classe */
+div {}            /* Tipo */
+h2 + p {}         /* Irmao adjacente */
+li > ul {}        /* Filho */
+ul a {}           /* Descendente */
+* {}              /* Universal */
+[type="text"] {}  /* Atributo */
+a:hover {}        /* Pseudo-classe/Pseudo-elemento */
+
+/* os seletores css sao interpretados seletores CSS da DIREITA para a ESQUERDA */
+#content .intro {}
+
+/* nesse caso, o navegador vai analisar todos os elementos "a" para
+depois achar somente aqueles que estão dentro do elemento com o ID "social" */
+#social a {}
+
+/* solucao para o caso acima */
+#social .social-link {}
+
+/* outra solucao */
+.social-link {}
